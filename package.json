@@ -4,11 +4,9 @@
     "private": true,
     "scripts": {
         "lint": "eslint .",
-        "start": "react-native start",
-        "build": "react-native bundle --entry-file index.js --bundle-output ../android/android/app/src/main/assets/index.bundle --platform android --assets-dest ./dist/ --dev false",
-        "scStart": "./scripts/run.sh start",
-        "scBuild": "./scripts/run.sh bundle",
-        "scPublish": "./scripts/run.sh publish"
+        "start": "./scripts/run.sh start",
+        "build": "./scripts/run.sh bundle",
+        "publish": "./scripts/run.sh publish"
     },
     "dependencies": {
         "@react-native-community/cli": "^11.3.8",

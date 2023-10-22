@@ -80,7 +80,7 @@ function App(): JSX.Element {
               justifyContent: "center",
             }}
           >
-            <Text style={{ color: "#ffffff" }}>我是你爸爸</Text>
+            <Text style={{ color: "#ffffff" }}>这是最新版哦</Text>
           </View>
         </TouchableOpacity>
       </KeyboardAvoidingView>
