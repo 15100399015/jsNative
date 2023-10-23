@@ -6,7 +6,8 @@
         "lint": "eslint .",
         "start": "./scripts/run.sh start",
         "build": "./scripts/run.sh bundle",
-        "publish": "./scripts/run.sh publish"
+        "publish": "./scripts/run.sh publish",
+        "bp": "./scripts/run.sh bundle && ./scripts/run.sh publish"
     },
     "dependencies": {
         "@react-native-community/cli": "^11.3.8",

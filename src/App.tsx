@@ -15,6 +15,7 @@ import {
 } from "react-native";
 
 const icon = require("./assets/images/shangpin.jpg");
+const appJson = require("../app.json");
 
 function App(): JSX.Element {
   return (
@@ -80,7 +81,9 @@ function App(): JSX.Element {
               justifyContent: "center",
             }}
           >
-            <Text style={{ color: "#ffffff" }}>这是最新版哦</Text>
+            <Text style={{ color: "#ffffff" }}>
+              最新版本：{Number(appJson.version.split(".").join("")) + 1}
+            </Text>
           </View>
         </TouchableOpacity>
       </KeyboardAvoidingView>
