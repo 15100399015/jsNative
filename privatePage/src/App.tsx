@@ -82,7 +82,7 @@ function App(): JSX.Element {
             }}
           >
             <Text style={{ color: "#ffffff" }}>
-              最新版本：{Number(appJson.version.split(".").join("")) + 1}
+              {appJson.name} : {Number(appJson.version.split(".").join("")) + 1}
             </Text>
           </View>
         </TouchableOpacity>
